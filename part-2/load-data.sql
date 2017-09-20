@@ -1,6 +1,3 @@
--- SQL script to insert [grocery seed data][grocery-data] and load from CSV is created in a file `load-data.sql`
--- SQL statements to insert data into the `orders` and `shoppers` table is added to the file `load-data.sql`. (Add at least 5 rows in each table)
-
 COPY grocery_items (name, price, section)
 FROM '/Users/alexandrawaite/Projects/phase-3-challenge/part-2/grocery.csv' DELIMITER ',' CSV HEADER;
 
