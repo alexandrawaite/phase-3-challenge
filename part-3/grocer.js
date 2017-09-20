@@ -12,6 +12,7 @@ let total = 0;
 
 for (let i = 0; i < addButton.length; i++) {
   addButton[i].addEventListener('click', addToModal);
+  addButton[i].addEventListener('click', incrementCartButton);
 }
 
 cartButton.addEventListener('click', openModal);
@@ -26,10 +27,12 @@ window.addEventListener('click', () => {
   }
 })
 
-function addToModal(item) {
+function incrementCartButton() {
   cartCount++;
   cartTotal.textContent = `(${cartCount})`;
+}
 
+function addToModal(item) {
   const button = item.target;
   const itemName = button.previousElementSibling.previousElementSibling;
   const itemPrice = button.previousElementSibling;
