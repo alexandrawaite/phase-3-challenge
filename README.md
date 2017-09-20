@@ -23,7 +23,7 @@ Each requirement has a point value. A fully complete requirement gets full point
 - [X] __10:__ Solution repository has 3 folders: `part-1`, `part-2`, and `part-3`.
 - [X] __10:__ Solution repository includes a `.gitignore` ignoring files that don't shouldn't be committed (e.g. `node_modules/`, `*.log` files).
 - [X] __10:__ Parts 1 and 2 have their own `package.json` specifying dependencies.
-- [ ] __20:__ Git history shows frequent commits.
+- [X] __20:__ Git history shows frequent commits.
 
 ## Part 1: Simple web app
 
@@ -150,7 +150,7 @@ $ ./store real-shoppers
 - [X] __10:__ SQL script to insert [grocery seed data][grocery-data] and load from CSV is created in a file `load-data.sql`
 - [X] __10:__ SQL statements to insert data into the `orders` and `shoppers` table is added to the file `load-data.sql`. (Add at least 5 rows in each table)
 - [X] __10:__ All database query functions are written in a file `database.js`, and tests for queries are written in a file `database_test.js`
-- [ ] __10:__ Tests can be run with the command `$ npm test`
+- [X] __10:__ Tests can be run with the command `$ npm test`
 
 User Stories: Ensure that your schema design can satisfy the following scenarios
 - [X] __10__: As a shopper I can fetch all my orders
@@ -185,15 +185,15 @@ Clicking on the "Cart" button opens the cart modal.
 
 ### Requirements
 
-- [ ] __10:__ All files are stored under the `part-3/` folder
-- [ ] __20:__ No third party CSS or JS libraries are used (all code must be written from scratch)
-- [ ] __10:__ HTML, CSS, and JS are separated into their own files.
-- [ ] __20:__ Clicking on a section in the "Sections" sidebar will jump to that section in the page
-- [ ] __20:__ Clicking on "Add to cart" will update the number displayed next to the "Cart" button to show the total number of items in the user's cart
-- [ ] __20:__ Clicking on the "Cart" button will show the cart modal with a list of all items added
-- [ ] __20:__ Clicking on the "Clear" button in the cart modal removes all items from the cart
-- [ ] __20:__ Clicking on the "X" button in the cart modal closes the modal
-- [ ] __20:__ The "Total" in the cart modal shows the calculated sum of all item prices
+- [X] __10:__ All files are stored under the `part-3/` folder
+- [X] __20:__ No third party CSS or JS libraries are used (all code must be written from scratch)
+- [X] __10:__ HTML, CSS, and JS are separated into their own files.
+- [X] __20:__ Clicking on a section in the "Sections" sidebar will jump to that section in the page
+- [X] __20:__ Clicking on "Add to cart" will update the number displayed next to the "Cart" button to show the total number of items in the user's cart
+- [X] __20:__ Clicking on the "Cart" button will show the cart modal with a list of all items added
+- [X] __20:__ Clicking on the "Clear" button in the cart modal removes all items from the cart
+- [X] __20:__ Clicking on the "X" button in the cart modal closes the modal
+- [X] __20:__ The "Total" in the cart modal shows the calculated sum of all item prices
 
 [grocery-data]: https://gist.github.com/lg-bot/1be9e9b91fc0f972b74b72df34c99d3d#file-grocery-csv
 [grocer-html]: https://gist.github.com/lg-bot/1be9e9b91fc0f972b74b72df34c99d3d#file-grocer-html
