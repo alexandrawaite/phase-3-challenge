@@ -1,5 +1,3 @@
- -- Database schema (all CREATE TABLE statements) is defined in a file schema.sql
-
 DROP TABLE IF EXISTS grocery_items CASCADE;
 DROP TABLE IF EXISTS shoppers CASCADE;
 DROP TABLE IF EXISTS orders CASCADE;
